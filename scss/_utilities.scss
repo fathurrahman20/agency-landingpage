@@ -1,0 +1,53 @@
+$font-sm: 300;
+$font-md: 500;
+$font-lg: 900;
+
+$margin-md: 15px;
+
+$primary-color: #fa983a;
+$second-color: #fad390;
+$black-color: #262626;
+$light-bg: #f6f6f6;
+$pad-top: 4rem;
+
+body {
+  font-weight: $font-sm;
+}
+p {
+  font-weight: $font-sm;
+  margin-bottom: $margin-md;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: $font-md;
+  margin-bottom: $margin-md;
+}
+.btn-hero {
+  color: #fff;
+  font-size: 0.8rem;
+  border-radius: 1.8rem;
+  background: $primary-color;
+  padding: 0.7rem 1.3rem;
+  text-transform: uppercase;
+  transition: 0.3s;
+  &:hover {
+      background: $second-color;
+  }
+}
+.title-lg {
+  font-weight: $font-lg;
+  font-size: 3rem;
+  text-transform: capitalize;
+}
+.title-md {
+  font-weight: $font-md;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+}
+[id] {
+  scroll-margin-top: 100px;
+}

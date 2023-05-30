@@ -1,0 +1,29 @@
+#footer {
+    background: $black-color;
+    input{
+        color: black;
+    }
+    input[type="submit"]{
+        padding: 5px 0;
+        background: $second-color;
+        transition: 0.3s;
+        &:hover {
+            background: $primary-color;
+            color: white;
+        }
+    }
+    .top {
+        bottom: 10px;
+        right: 50px;
+
+        i{
+            font-size: 25px;
+            color: white;
+        }
+    }
+    @media screen and (max-width: 768px) {
+        .col-md-4{
+            margin-bottom: 2rem;
+        }
+    }
+}

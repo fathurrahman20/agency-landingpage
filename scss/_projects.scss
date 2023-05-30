@@ -1,0 +1,17 @@
+#projects {
+    margin-top: 4rem;
+    .card {
+        img {
+            transition: 0.5s;
+            &:hover {
+            cursor: pointer;
+            transform: scale(1.2);
+        }
+        }
+    }
+    @media screen and (max-width: 768px) {
+        .projects-card{
+            margin-bottom: 0.7rem;
+        }
+    }
+}

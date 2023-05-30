@@ -1,0 +1,32 @@
+#newsletter {
+    margin-top: $pad-top;
+    background: $second-color;
+    h5 {
+        color: rgb(68, 59, 59);
+    }
+    button {
+        background: #fff;
+        padding: 15px 20px;
+        border-radius: 30px;
+        margin-right: 1rem;
+        margin-left: 170px;
+        &:hover {
+            background: $primary-color;
+            color: #fff;
+        }
+    }
+    @media screen and (max-width: 768px){
+        #footer {
+            height: -190px;
+        }
+    .col-md-8 {
+        text-align: center;
+        margin: auto;
+        margin-bottom: 1rem;
+    }
+    h5 {
+        margin-left: 10rem;
+        margin-bottom: 1rem;
+    }
+    }
+}
